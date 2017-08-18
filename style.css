@@ -37,6 +37,8 @@ body {
 .container {
   display: grid;
   width: 100vw;
+  max-width: 960px;
+  margin: 0 auto;
 
   grid-template-rows: min-content auto;
 }
