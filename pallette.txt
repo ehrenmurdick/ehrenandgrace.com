@@ -1,0 +1,5 @@
+#2F4859; /* dark blue */
+#33658A; /* medium blue */
+#86BBD8; /* light blue */
+#DB9C27; /* mustard */
+#E6E8E6; /* off white */
