@@ -1,0 +1,53 @@
+/* rgba(37, 35, 35, 1); */
+/* rgba(112, 121, 140, 1); */
+/* rgba(244, 255, 253, 1); */
+/* rgba(8, 103, 136, 1); */
+/* rgba(118, 108, 127, 1); */
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Anton', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Merriweather|Open+Sans:300');
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(37, 35, 35, 1);
+  background-color: rgba(244, 255, 253, 1);
+  font-family: 'Merriweather', serif;
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 28pt;
+}
+
+.and {
+  padding-top: 5pt;
+  font-family: 'Anton', sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 24pt;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+
+  grid-template-rows: min-content auto;
+}
+
+.navigation {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.navigation a {
+  text-align: center;
+  color: rgba(8, 103, 136, 1);
+  text-decoration: none;
+}
