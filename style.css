@@ -1,26 +1,26 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Merriweather', serif; */
-/* font-family: 'Anton', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Merriweather|Open+Sans:300');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Poiret One', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poiret+One');
+
 
 body {
   margin: 0;
   background-color: #E6E8E6; /* off white */
   padding: 0;
   color: #2F4858; /* dark blue */
-  font-family: 'Merriweather', serif;
+  font-family: 'Poiret One', cursive;
+}
+
+a {
+  text-transform: uppercase;
 }
 
 .name {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Playfair Display', serif;
   font-size: 28pt;
-}
-
-.and {
-  padding-top: 5pt;
-  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
 }
 
 .header {
@@ -44,12 +44,12 @@ body {
 
 .navigation a {
   text-align: center;
-  color: #DB9C27; /* mustard */
+  color: #2F4859; /* dark blue */
   text-decoration: none;
 }
 
 .navigation a.active {
-  border-bottom: 1px solid #DB9C27; /* mustard */
+  border-bottom: 1px solid #2F4859; /* dark blue */
 }
 
 .content {
