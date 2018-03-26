@@ -71,3 +71,37 @@ a {
   width: 100% !important;
   height: 100% !important;
 }
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  padding-top: 5vmin;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 22, 22, 0.2);
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-big {
+  height: 90vmin;
+  width: 90vmin;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#app {
+  margin-top: 40px;
+}
